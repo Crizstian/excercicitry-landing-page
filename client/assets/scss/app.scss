@@ -1,0 +1,170 @@
+@import "settings";
+@import "foundation";
+
+@font-face {
+    font-family: 'bebasneue';
+    src: url('../fonts/BEBASNEUE.OTF');
+  }
+@font-face {
+    font-family: 'opensans-regular';
+    src: url('../fonts/OPENSANS-REGULAR.TTF');
+  }
+p{
+  color: #282224;
+}
+.menut{
+  background-color: #efefef;
+  padding: 1.2em;
+  a{
+    font-family: 'opensans-regular';
+    font-size: 2rem;
+  }
+}
+.menua{
+  background-color: #efefef;
+  padding: 1.2em;
+  a{
+    font-family: 'bebasneue';
+    font-size: 2rem;
+    color: black;
+  }
+}
+.foot{
+  background-color: #141112;
+  padding: 0.7em 0;
+  p,a{
+    font-family: 'opensans-regular';
+    font-size: 1.2rem;
+    color:  #efefef;
+    text-align: center;
+  }
+}
+.active{
+  a {
+    color: #4CA6FF;
+  }
+}
+.row{
+  border: 0px solid green;
+}
+.columns{
+  border: 0px solid red;
+}
+.principal{
+  .p-a-a{
+    position:relative;
+    height:60vh;
+    overflow:hidden
+  }
+  .nosotros-a-a{
+    position:relative;
+    height:90vh;
+    overflow:hidden
+  }
+  .p-t{
+      position:relative;
+  }
+  .p-a{
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center center;
+  }
+  .p-img{
+    background-image: url('../img/principal.png');
+  }
+  .nosotros-img{
+    background-image: url('../img/contacto.jpg');
+  }
+  .p-p{
+    padding: 1.2em;
+    font-family: 'opensans-regular';
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
+.segundo{
+  p{
+    padding: 6em 2em;
+  }
+  img {
+    padding: 0em;
+  }
+  .a{
+    font-family: 'bebasneue';
+    letter-spacing: 0.02em;
+    font-size: 2.9rem;
+    color: #4CA6FF;
+  }
+  .b{
+    font-family: 'opensans-regular';
+    font-size: 1.2rem;
+    text-align: center;
+    color: #282224;
+  }
+}
+.nosotros{
+  p{
+    padding: 1em 4em 2em;
+    text-align: center;
+  }
+  .a-b{
+    font-family: 'bebasneue';
+    letter-spacing: 0.02em;
+    font-size: 2.9rem;
+    color: #4CA6FF;
+  }
+  .b-b{
+    font-family: 'opensans-regular';
+    font-size: 1.2rem;
+    text-align: center;
+    color: #282224;
+  }
+}
+.nosotros1{
+  p{
+    padding: 4em 1em 0 1em;
+  }
+  img {
+    padding: 0em;
+  }
+  .a-b{
+    font-family: 'bebasneue';
+    letter-spacing: 0.02em;
+    font-size: 2.5rem;
+    color: #4CA6FF;
+  }
+  .b-b{
+    font-family: 'opensans-regular';
+    font-size: 1rem;
+    text-align: center;
+    color: #282224;
+  }
+}
+.nosotros2{
+  img {
+    padding: 4em 2em;
+  }
+}
+.gal{
+  img{
+    padding: 1em;
+  }
+}
+.titulo{
+  h2{
+    font-family: 'bebasneue';
+    letter-spacing: 0.02em;
+    font-size: 3.5rem;
+    color: #4CA6FF;
+  }
+  a img{
+    padding: 1em 6em 2em ;
+    position: relative;
+    left: 50%;
+  }
+  p{
+    font-family: 'opensans-regular';
+    font-size: 1rem;
+    color: #282224;
+  }
+}

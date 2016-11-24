@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en" ng-app="app">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercictry</title>
+    <link href="./assets/css/app.css" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/foundation/6.0.5/foundation.min.css" rel="stylesheet" type="text/css">
+    <script src="./assets/js/foundation.js"></script>
+    <script src="./assets/js/templates.js"></script>
+    <script src="./assets/js/routes.js"></script>
+    <script src="./assets/js/app.js"></script>
+  </head>
+  <body>
+    <div class="row">
+      <div class="large-3 columns menut">
+        <ul class="menu align-left">
+          <li><a href="#" style="text-transform: uppercase;"><span style="color:black;">exer</span><span style="color:#4CA6FF;">cicitry</span><span style="color:black">®</span></a></li>
+        </ul>
+      </div>
+      <div class="large-9 columns menua">
+        <ul class="menu align-right">
+          <li><a href="home">Blog</a></li>
+          <li><a ui-sref="contacto">Contacto</a></li>
+          <li><a ui-sref="productos">Productos y Servicios</a></li>
+          <li><a ui-sref="nosotros">Nosotros</a></li>
+          <li><a ui-sref="home">Inicio</a></li>
+        </ul>
+      </div>
+    </div>
+    <div ui-view></div>
+    <div class="row foot">
+      <div class="large-4 columns">
+        <p>
+          ©SoWat 2015
+        </p>
+      </div>
+      <div class="large-4 columns ">
+        <p>
+          <span style="color:#4CA6FF;">Exercicitry® </span> una marca de Five E-ways®
+        </p>
+      </div>
+      <div class="large-4 columns">
+        <p>
+          <a href="mailto:contacto@sowat.com">contacto@sowat.com</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
